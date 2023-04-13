@@ -9,8 +9,6 @@ import { BsFillPersonLinesFill, BsPersonLinesFill } from "react-icons/bs";
 
 import { useRouter } from "next/router";
 
-import navLogo from "../public/assets/navLogo.png";
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -64,7 +62,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-4 xl:px-16">
         <Link href="/">
-          <Image src={navLogo} alt="/" width="70" height="50" />
+          <h2>SB</h2>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -108,7 +106,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image src={navLogo} alt="logotipo" width="70" height="35" />
+                <h2>SB</h2>
               </Link>
               <div
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
@@ -158,7 +156,7 @@ const Navbar = () => {
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
                   className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
-                  href="https://www.linkedin.com/in/joaopaulo-chaves/"
+                  href="https://www.linkedin.com/in/sagar-bakshi/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -166,7 +164,7 @@ const Navbar = () => {
                 </a>
                 <a
                   className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
-                  href="https://github.com/jpcchaves"
+                  href="https://github.com/sagar-bakshi"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -174,7 +172,7 @@ const Navbar = () => {
                 </a>
                 <a
                   className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
-                  href="mailto:jpcchaves@outlook.com"
+                  href="mailto:sagarbakshi@outlook.com"
                 >
                   <AiOutlineMail />
                 </a>

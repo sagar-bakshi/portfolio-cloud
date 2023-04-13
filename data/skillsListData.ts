@@ -3,7 +3,6 @@ import ReactIcon from "../public/assets/skills/react.png";
 import NextIcon from "../public/assets/skills/nextjs.png";
 import TW from "../public/assets/skills/tailwind.png";
 import SC from "../public/assets/skills/styled-components.png";
-import Java from "../public/assets/skills/java.png";
 import SpringBoot from "../public/assets/skills/spring-boot.png";
 import NodeJsIcon from "../public/assets/skills/node.png";
 import ExIcon from "../public/assets/skills/express.png";

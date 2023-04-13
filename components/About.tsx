@@ -10,29 +10,41 @@ const About = () => {
           <p className="puppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
-          <h2 className="py-4">Quem sou eu?</h2>
+          <h2 className="py-4">Who am I?</h2>
           <p className="py-2 text-gray-600">
-            Com 1 ano de experiência no desenvolvimento web, tenho dedicado meu
-            tempo e esforços para me tornar um Desenvolvedor Front-End. Em 2021,
-            iniciei meus estudos focando nas tecnologias HTML e CSS para ter o
-            primeiro contato com o desenvolvimento de websites e, a partir daí,
-            me apaixonei por programação e busquei cada vez mais melhorar minhas
-            skills e aprender novas tecnologias.
+            My name is <strong>Sagar Bakshi</strong>, and I&apos;m a seasoned
+            <strong> Cloud Architect</strong> with over 8 years of experience in
+            designing, implementing, and managing cutting-edge cloud solutions.
+            I&apos;m passionate about helping businesses navigate the
+            complexities of cloud computing and utilize the latest technologies
+            to achieve their goals.
           </p>
           <p className="py-2 text-gray-600">
-            Após meu primeiro contato com o desenvolvimento Front-End em 2021,
-            iniciei meus estudos em JavaScript para adicionar dinâmica e
-            interações com o usuário aos sites que eu desenvolvia enquanto
-            estudava. Aliado a isso, aprendi também frameworks e bibliotecas
-            (TypeScript, ReactJS, NextJS, TailwindCSS, NodeJS, Express) que
-            ajudam no processo desenvolvimento, otimizando o tempo e construindo
-            aplicações web mais otimizadas e performáticas.
+            Throughout my career, I&apos;ve worked with numerous clients across
+            various industries, including finance, healthcare, and technology.
+            My expertise spans across multiple cloud platforms, such as Amazon
+            Web Services (AWS), Microsoft Azure, and Google Cloud Platform
+            (GCP). I am skilled in areas like infrastructure design, automation,
+            and optimization, as well as containerization, serverless
+            architectures, and cloud security.
+          </p>
+          <p className="py-2 text-gray-600">
+            I hold several industry certifications, including AWS Certified
+            Solutions Architect, Microsoft Certified:{" "}
+            <strong>Azure Solutions Architect </strong>
+            Expert, and <strong>AWS Solutions Architect</strong>. I&apos;m
+            committed to continuous learning and staying up-to-date with the
+            latest advancements in the cloud computing landscape.
+          </p>
+          <p className="py-2 text-gray-600">
+            Outside of my professional life, I enjoy playing guitar and
+            exercise.
           </p>
           <a
             href="#projects"
             className="py-2 text-gray-600 underline cursor-pointer"
           >
-            Veja alguns dos meus projetos mais recentes.
+            Project have worked in recent years
           </a>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">

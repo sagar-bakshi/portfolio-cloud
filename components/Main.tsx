@@ -9,24 +9,25 @@ const Main = () => {
     <div className="w-full h-screen text-center" id="home">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600">
-            Vamos desenvolver algo juntos?
-          </p>
           <h1 className="py-4 text-gray-700">
-            Olá, me chamo <span className="text-[#5651e5]">João</span>
+            Hello, Namaste <span>🙏</span>
+            <span className="text-[#5651e5]">I&apos;m Sagar</span>
           </h1>
-          <h1 className="py-2 text-gray-700">Sou Desenvolvedor de Software</h1>
+          <h1 className="py-2 text-gray-700">Cloud Architect</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            Com dedicação total ao Web Development, estou me especializando na
-            construção de sites otimizados e bem estruturados. Atualmente focado
-            no desenvolvimento de aplicações web utilizando TypeScript, ReactJS
-            e NextJS no <strong>Front-end</strong> e utilizando Java e Spring
-            Boot no <strong>Back-end</strong>
+            I&apos;m an accomplished Cloud Architect with over 8 years of
+            experience in designing, implementing, and managing innovative
+            cloud-based solutions. With a strong track record of successfully
+            driving digital transformation initiatives and improving operational
+            efficiency, I&apos;ve consistently helped businesses scale and
+            achieve their technology goals. Explore my portfolio to discover my
+            skills, projects, and contributions to the ever-evolving world of
+            cloud computing.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
               className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-              href="https://www.linkedin.com/in/joaopaulo-chaves/"
+              href="https://www.linkedin.com/in/sagar-bakshi/"
               target="_blank"
               rel="noreferrer"
             >
@@ -34,7 +35,7 @@ const Main = () => {
             </a>
             <a
               className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-              href="https://github.com/jpcchaves"
+              href="https://github.com/sagar-bakshi"
               target="_blank"
               rel="noreferrer"
             >
@@ -42,7 +43,7 @@ const Main = () => {
             </a>
             <a
               className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-              href="mailto:jpcchaves@outlook.com"
+              href="mailto:sagarbakshi@outlook.com"
             >
               <AiOutlineMail />
             </a>

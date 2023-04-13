@@ -46,7 +46,7 @@ const Contact = () => {
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
         </p>
-        <h2 className="py-4">Entre em contato</h2>
+        <h2 className="py-4">Get in touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -59,20 +59,20 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">João Paulo</h2>
-                <p>Desenvolvedor Front-End</p>
+                <h2 className="py-2">Sagar Bakshi</h2>
+                <p>Cloud Architect</p>
                 <p className="py-4">
-                  Estou disponível para trabalhos voltados ao Front-End. Entre
-                  em contato!
+                  I am available for work focused on the Cloud Architecture
+                  Design.
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8">Conecte-se comigo</p>
+                <p className="uppercase pt-8">Connect with me</p>
 
                 <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                   <a
                     className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-                    href="https://www.linkedin.com/in/joaopaulo-chaves/"
+                    href="https://www.linkedin.com/in/sagar-bakshi/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -80,7 +80,7 @@ const Contact = () => {
                   </a>
                   <a
                     className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-                    href="https://github.com/jpcchaves"
+                    href="https://github.com/sagar-bakshi"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -88,7 +88,7 @@ const Contact = () => {
                   </a>
                   <a
                     className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-                    href="mailto:jpcchaves@outlook.com"
+                    href="mailto:sagarbakshi@outlook.com"
                   >
                     <AiOutlineMail />
                   </a>
@@ -123,7 +123,7 @@ const Contact = () => {
                     )}
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Telefone</label>
+                    <label className="uppercase text-sm py-2">Telephone</label>
                     {errors.phone ? (
                       <input
                         className="border-2 rounded-lg p-3 flex border-red-500 focus:outline-[#5651e5]"
